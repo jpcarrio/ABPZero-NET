@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="es-MX">
+    <texts>
+        <text name="HomePage" value="Página de inicio" />
+        <text name="About" value="Acerca de" />
+        <text name="WelcomeMessage" value="Bienvenido a WMS!" />
+
+        <text name="FormIsNotValidMessage" value="Formulario no es válido. Por favor, compruebe y corrija los errores." />
+        <text name="TenantNameCanNotBeEmpty" value="Nombre de la empresa no puede estar vacío" />
+
+        <text name="InvalidUserNameOrPassword" value="Usuario o contraseña invalido" />
+        <text name="ThereIsNoTenantDefinedWithName{0}" value="No hay empresa definida con el nombre {0}" />
+        <text name="TenantIsNotActive" value="La empresa {0} no está activa." />
+        <text name="UserDeleteWarningMessage" value="Está seguro que desea eliminar este usuario ?" />
+        <text name="RoleDeleteWarningMessage" value="Está seguro que desea eliminar este role ?" />
+        <text name="StatementDeleteWarningMessage" value="Seguro desea eliminar estos datos ?" />
+        <text name="SuccessfullyDeleted" value="Elliminado con éxito" />
+        <text name="UserIsNotActiveAndCanNotLogin" value="El usuario {0} no está activo y no puede conectarse." />
+        <text name="UserEmailIsNotConfirmedAndCanNotLogin">Your email address is not confirmed. You can not login.</text>
+        <text name="UserLockedOutMessage">The user account has been locked out. Please try again later.</text>
+
+        <text name="PleaseEnterLoginInformation" value="Por favor, introduzca la información de inicio de sesión" />
+        <text name="TenancyName" value="Nombre de la empresa" />
+        <text name="UserNameOrEmail" value="Nombre de usuario o correo electrónico" />
+        <text name="Password" value="Contraseña" />
+        <text name="ResetPassword" value="Reiniciar contraseña" />
+        <text name="UpdatePassword" value="Cambiar contraseña" />
+        <text name="RememberMe" value="Recuérdame" />
+        <text name="LogIn" value="Iniciar sesión" />
+
+        <text name="LoginFailed" value="¡Error de inicio de sesion!" />
+
+        <text name="NameSurname" value="Nombre Apellido" />
+        <text name="UserName" value="Nombre de usuario" />
+        <text name="Name" value="Nombre" />
+        <text name="Surname" value="Apellido" />
+        <text name="EmailAddress" value="Dirección de correo electrónico" />
+        <text name="GlobalSettings">Configuraciones Globales</text>
+
+        <text name="Tenants" value="Empresas" />
+        <text name="TenantDetails" value="Detalle de Empresa" />
+        <text name="TenantDeleteWarningMessage">value="Esta seguro que desea eliminar esta Empresa?" /></text>
+        <text name="SavedSuccessfully" value="Guardado correctamente" />
+        <text name="CreateNewTenant" value="Crear nueva empresa" />
+        <text name="TenancyNamePlaceholder" value="Nombre unico. No puede contener espacios" />
+        <text name="NameTenantPlaceholder" value="Un nombre largo, arbitrario y legible para el ser humano del arrendatario" />
+        <text name="AdminEmailAddress" value="Dirección de correo electrónico del administrador" />
+        <text name="Save" value="Guardar" />
+        <text name="SaveAndNew" value="Guardar y crear" />
+        <text name="Cancel" value="Cancelar" />
+        <text name="TenantName_Regex_Description" value="El nombre de la empresa debe ser de al menos 2 caracteres, empieza con una letra y continua con una letra, número, guión o un guión bajo." />
+        <text name="DefaultPasswordIs" value="La contraseña por defecto es {0}" />
+        <text name="CanBeEmptyToLoginAsHost" value="Puede estar vacía para iniciar la sesión como anfitrión." />
+        <text name="Register" value="Registro" />
+        <text name="OrLoginWith" value="o iniciar sesión con" />
+        <text name="WaitingForActivationMessage" value="Su cuenta está en espera de ser activada por el administrador del sistema." />
+        <text name="TenantSelection" value="Selección de Empresa" />
+        <text name="TenantSelection_Detail" value="Por favor seleccione una de las siguientes empresas." />
+        <text name="Logout" value="Cerrar sesión" />
+
+        <!--Required-->
+        <text name="TenancyNameRequired" value="El nombre de la empresa es obligatorio" />
+        <text name="MinLength" value="Mínimo 2 caracteres" />
+        <text name="NameRequired" value="Nombre es obligatorio" />
+        <text name="ValidEmailAdress" value="Por favor ingrese un correo válido - Ex. pat@example.com" />
+        <text name="EmailRequired" value="Correo electrónico es obligatorio" />
+        <text name="UserNameRequired" value="Nombre de usuario es obligatorio" />
+        <text name="SurnameRequired" value="Apellido es obligatorio" />
+        <text name="dueDateValid" value="Fecha Límite es obligatorio" />
+        <text name="DisplayNameRequired">Nombre Visual es obligatorio</text>
+
+        <text name="RegisterFormUserNameInvalidMessage">Por favor no entre una direccion de correo para nombre de usario.</text>
+        <text name="DatabaseConnectionString" value="Database connection string" />
+        <text name="Users" value="Usuarios" />
+        <text name="IsActive" value="Activo" />
+        <text name="FullName" value="Nombre" />
+        <text name="CreateNewUser" value="Crear nuevo usuario" />
+        <text name="Yes" value="Si" />
+        <text name="No" value="No" />
+        <text name="Optional" value="Opcional" />
+        <text name="LeaveEmptyToSwitchToHost">Dejar vacio para cambiar a host</text>
+        <text name="CurrentTenant">Tenant usado</text>
+        <text name="NotSelected">No seleccionado</text>
+        <text name="Change">Cambiar</text>
+        <text name="ChangeTenant">Cambiar Empresa</text>
+        <text name="MultiLevelMenu">Menu Multi Nivel</text>
+        <text name="Back">Atras</text>
+        <text name="SuccessfullyRegistered">Registrado satisfactoriamente</text>
+        <text name="WaitingForEmailActivation">Tu direccion de email debe ser activada</text>
+        <text name="Roles">Roles</text>
+        <text name="DisplayName">Nombre visual</text>
+        <text name="Edit">Editar</text>
+        <text name="Delete">Eliminar</text>
+        <text name="CreateNewRole">Crear nuevo role</text>
+        <text name="RoleName">Nombre</text>
+        <text name="RoleDetails">Detalles del Rol</text>
+        <text name="RolePermissions">Permisos del Rol</text>
+        <text name="CouldNotCompleteLoginOperation">No se ha podido completar la operacion de login, por favor pruebe después</text>
+        <text name="CouldNotValidateExternalUser">No se ha podido validar al usuario externo</text>
+        <text name="EditRole">Editar role</text>
+        <text name="EditTenant">Editar empresa</text>
+        <text name="EditUser">Editar usuario</text>
+        <text name="TenantIdIsNotActive{0}">TenantId {0} no está activo</text>
+        <text name="UnknownTenantId{0}">Desconocido tenantId {0}</text>
+        <text name="ThisFieldIsRequired">Este campo es requerido</text>
+        <text name="PleaseWait">Por favor espere...</text>
+        <text name="Administration">Administración</text>
+        <text name="ClearAll">Vaciar todo</text>
+        <text name="ClearOthers">Vaciar otros</text>
+        <text name="LabelOptions">Opciones de etiquetado</text>
+        <text name="Permissions">Permisos</text>
+        <text name="RoleDescription">Descripción de role</text>
+        <text name="Refresh">Actualizar</text>
+        <text name="Create">Crear</text>
+        <text name="UserDetails">Detalles de usuario</text>
+        <text name="TimeOffDetails">Detalles</text>
+        <text name="UserRoles">Roles de usuario</text>
+        <text name="ConfirmPassword">Confirmar contraseña</text>
+        <text name="Version">Version</text>
+        <text name="On">On</text>
+        <text name="Off">Off</text>
+        <text name="AreYouSure">Está seguro?</text>
+        <text name="AreYouSureWantToDelete">Esta seguro que desea eliminar {0}?</text>
+        <text name="StartTyping">Teclee</text>
+        <text name="Skins">Skins</text>
+        <text name="Settings">Configuraciones</text>
+        <text name="Filter">Filtro</text>
+        <text name="CurrentPassword">Contraseña Actual</text>
+        <text name="NewPassword">Nueva Contraseña</text>
+        <text name="ConfirmNewPassword">Confirmar Nueva Contraseña</text>
+        <text name="ChangeImage">Cambiar Imagen</text>
+        <text name="UploadImage">Subir Imagen</text>
+        <text name="UpdateUserImage">Cambiar imagen</text>
+        <text name="UpdateData" value="Actualizar Datos" />
+        <text name="UserImageSize">NOTE: El archivo debe ser una imagen y debe tener menos de 1 Mb de tamaño</text>
+        <text name="Todo">Lista de Tareas</text>
+        <text name="List">LISTA</text>
+        <text name="Calendar">CALENDARIO</text>
+        <text name="IsCompleted">Completado</text>
+        <text name="TaskName">Nombre de Tarea</text>
+        <text name="Priority">Prioridad</text>
+        <text name="DueDate">Fecha límite</text>
+        <text name="EditTask">Editar Tarea</text>
+        <text name="TaskDetails">Detalles de Tarea</text>
+        <text name="ReminderDate">Fecha de recordatorio</text>
+        <text name="TaskDeleteWarningMessage" value="Esta seguro que desea eliminar esta Tarea?" />
+        <text name="CreateNewTask">Crear Nueva Tarea</text>
+        <text name="MarkTaskAsComplete">Marca Tarea como Completada</text>
+        <text name="MarkTaskAsCompleteWarningMessage">Esta seguro que desea marcar esta Tarea como completada?</text>
+        <text name="Tasks">Tareas</text>
+        <text name="SendingAccountVerification">Enviando correo de verificación de cuenta {0}</text>
+        <text name="SentAccountVerification">En correo de verificación ha sido enviado a {0}</text>
+        <text name="PasswordRequirements">La contraseña debe tener al menos 8 caractéres, contener minúsculas,
+            mayúsculas, números y al menos un caractére especial
+        </text>
+        <text name="PaswordsDontMatch">Contraseñas diferentes</text>
+        <text name="UserAccountActivation">Activación de Cuenta de Usuario</text>
+        <text name="ActivatedUser">Usuario {0} está Acitvado</text>
+        <text name="DeactivatedUser">Usuario {0} está Desactivado</text>        
+        <text name="ChangeApplicationSettings">Configuracion de Aplicación</text>
+        <text name="SearchWithThreeDot">Buscar...</text>
+        <text name="UsersActivation">Activación de Usuarios</text>
+        <text name="ResendConfirmationEmail">Reenviar correo de confirmación</text>
+        <text name="ForgotPassword">Se olvido de la contraseña?</text>
+
+        <text name="App">APLICACIÓN</text>
+        <text name="Main">MENU PRINCIPAL</text>
+        <text name="Management">ADMINISTRACIÓN</text>
+
+        <!--Payment-->
+        <text name="Payment">Informacion de Facturación</text>
+        <text name="CustomerInformation">Información de Clientes</text>
+        <text name="PaymentManagement">Administración de Pagos</text>
+        <text name="PaymentHistory">Historial de Pagos</text>
+        <text name="CardInfo">Tarjeta de Crédito</text>
+        <text name="CompleteOrder">Completar Orden</text>
+        <text name="SelectCountry">Seleccione país</text>
+        <text name="SelectYourProduct">Seleccione el producto</text>
+        <text name="SearchCustomers">Buscar clientes</text>
+        <text name="SearchTransactions">Buscar transacciones</text>
+
+        <!--Dashboard-->
+        <text name="AI_BI">Inteligencia de Negocios - IA</text>
+
+        <text name="Finance">Finanzas </text>
+        <text name="InformationTechnology">Tecnología de la información</text>
+        <text name="Marketing">Márketing</text>
+
+        <text name="Cost_per_click">Costo por clic</text>
+        <text name="Cost_per_lead">Costo por prospecto de ventas</text>
+        <text name="Performance">Rendimiento</text>
+        <text name="Hiring">Contratación </text>
+        <text name="Human_Resources">Recursos humanos</text>
+        <text name="It_Management_score_card">Cuadro de mandos</text>
+        <text name="Landing_page_conversion_rates">Tasas de conversión de la página de destino</text>
+        <text name="Profit_and_loss_financial">Ganancias y pérdidas financieras</text>
+        <text name="ProfitAndLoss">Información de Facturación </text>
+        <text name="Purchasing">Compras </text>
+        <text name="Sales">Ventas</text>
+        <text name="Total_tickets_vs_open_tickets">Total de tickets versus a tickets abiertos</text>
+        <text name="Chash_Flow_Statement_KPIs">KPI de estado de flujo de efectivo</text>
+        <text name="Performance_KPI">KPI de desempeño financiero</text>
+        <text name="Financial_Balance">Balance de finanzas</text>
+        <text name="Profit_and_loss_grid">Información de Facturación</text>
+
+        <!--Billing-->
+        <text name="Billing">Dirección de Facturación</text>
+        <text name="BillingName">Nombre</text>
+        <text name="BillingStreet">Dirección Línea 1</text>
+        <text name="BillingStreet2">Dirección Línea 2</text>
+        <text name="BillingCity">Ciudad</text>
+        <text name="BillingProvince">Provincia</text>
+        <text name="BillingCountry">País</text>
+        <text name="BillingPostal">Código Postal</text>
+        <text name="BillingEmail">Correo</text>
+        <text name="BillingPhoneNumber">Número de teléfono</text>
+        <text name="BillingRequiredMessage">Si entra alguna informacion de facturación entonces son requeridos los campos Nombre, País, Provincia and Número de teléfono.</text>
+        <text name="BillingRequiredTitle">Información de facturación requerida</text>
+
+        <text name="CardName">Nombre Completo</text>
+        <text name="CardNumber">Número de Tarjeta de Crédito</text>
+        <text name="LastFour">Ultimos 4 dígitos de tarjeta</text>
+        <text name="CreatedDate">Fecha de Creación</text>
+        <text name="Approved">Aprobado</text>
+        <text name="Amount">Monto</text>
+        <text name="TransactionId">Id Transacción</text>
+        <text name="OrderNumber">Número de Orden</text>
+        <text name="CardType">Tipo de Tarjeta</text>
+        <text name="BaseCardType">Tarjeta base</text>
+        <text name="CardSecurityCode">Código de Seguridad</text>
+        <text name="CardExpirationMonth">Mes de expiración</text>
+        <text name="CardExpirationYear">Año de expiración</text>
+        <text name="DeclineCardErrorMessage">La tarjeta ha sido Declinada</text>
+
+        <text name="ResetPasswordError">Han ocurrido errores restaurando la constraseña. Por favor, pruebe de nuevo</text>
+        <text name="PasswordRequiresNonAlphanumeric">La constraseña debe contener al menos un caracter alfanumerico. Por favor, pruebe de nuevo</text>
+        <text name="ResetPasswordSuccess">Contraseña cambiada exitosamente</text>
+        <text name="InvalidTokenforReset">Token invalido. Por favor, vaya a Forgot Password y reenvia el email a tu cuenta</text>
+
+        <!--Generic-->
+        <text name="FeatureNotImplemented">Funcionalidad no implementada</text>
+        <text name="BusinessAI">Negocios AI</text>
+        <text name="AppName">Nombre de App</text>
+        <text name="LicenceType">Tipo de licencia</text>
+        <text name="LicenceExpiration">Expiración de licencia</text>
+        <text name="CoreLogo">Logo</text>
+
+        <!--Email subject / title-->
+        <text name="WelcometoISUCore">Bienvenido a ISUCore</text>
+        <text name="YourVerificationCode">Su código de verificación para {0}</text>
+        <text name="VerificationCode">Código de verificación</text>
+        <text name="AccountVerification">Verificación de cuenta</text>
+        <text name="PasswordRecovery">Recuperación de contraseña</text>
+        <!--Email introduction-->
+        <text name="YourUserNameIs">Su nombre de usuario es: {0}</text>
+        <!--Email body message-->
+        <text name="PleaseFollowingVerifyLink">Por favor use el siguiente link para verificar su cuenta.</text>
+        <text name="PleaseFollowingRecoveryLink">Por favor use el siguiente link para recuperar su contraseña.</text>
+        <text name="PleaseFollowingVerifyCode">Por favor use el siguiente link para confirmar su identidad.</text>
+        <!--Email action-->
+        <text name="ClickHere">Click aquí!</text>
+        <!--Email process-->
+        <text name="EmailSentSuccessfully">Correo enviado satisfactoriamente</text>
+        <text name="EmailDoesntExist">No existe un usuario con esta dirección de correo electrónico</text>
+        <text name="TimeoutException">Tiempo de respuesta agotado</text>
+        <text name="EmailSentFailed">Error inesperado al enviar el correo. Por favor, pruebe de nuevo</text>
+        <text name="EmaiLNotVerified">La dirección de email no ha sido verificada</text>
+        <text name="ConfirmEmailResultErrors">Error inesperado tratando de verificar la cuenta. Por favor, pruebe de nuevo</text>
+        <text name="ConfirmEmailResultSucceeded">Su cuenta ha sido verificada!</text>
+        <text name="ConfirmEmailResultVerificationFailed">Verificación de cuenta fallida. Por favor utiliza el link dentro del correo que enviamos a su cuenta de correo</text>
+        <text name="AlreadyConfirmedEmail">Su cuenta de correo ya ha sido verificada anteriormente, por favor chequee el acceso al sitio</text>
+        <text name="UserHasEmail">El usuario está confirmado, o hay un email en su correo</text>
+
+        <!--Invite Email-->
+        <text name="SendInvite">Enviar invitación</text>
+        <text name="ConfirmSendInvite">¿Confirmar el envío de {0} invitaciones?</text>
+        <text name="InvitationToUser">ISUCore lo invita a unirse al nuevo portal.</text>
+               
+        <!--Login-->
+        <text name="UnexpectedAuthenticateResult">Resultado de autenticación inesperado!</text>
+        <text name="InvalidCode">El código no es válido</text>
+        <text name="NotUsingTwoFactorAuthException">Lo sentimos, parece que usted no esta habilitado para usar two factor authentication</text>
+        <text name="NoPendingCodeException">Lo sentimos, parece que usted no tiene un código pendiente a verificar</text>
+
+    <text name="Modules">Modulos</text>
+    <text name="Themes">Temas</text>
+    <text name="GeneralSettings">Configuración de la Aplicación</text>
+    <text name="AddUser">Agregar Usuario</text>
+    <text name="AddTask">Agregar tarea</text>
+    <text name="AddRole">Agregar role</text>
+    <text name="Search">Buscar</text>
+    <text name="SearchTasks">Buscar tareas</text>
+    <text name="SearchUsers">Buscar usuarios</text>
+    <text name="SearchRoles">Buscar roles</text>
+
+        <text name="Authentication">Autenticación</text>
+        <text name="EnableOrDisabledTwoFactor">Habilitar/Deshabilitar Two-Factor authentication</text>
+        <text name="EnableOrDisabledSocialMedia">Habilitar/Deshabilitar Social-Media authentication</text>
+        <text name="EnabledTwoFactorMsg">Habilitado two-factor authentication</text>
+        <text name="DisabledTwoFactorMsg">Deshabilitado two-factor authentication</text>
+
+        <!--Cost per click-->
+        <text name="Clicks">Clics</text>
+        <text name="ClicksThroughtRate">Clics a traves de Rate</text>
+        <text name="CostPerClick">Costo por Clic</text>
+        <text name="Adquisitions">Adquisiciones</text>
+        <text name="CostPerAdquisitions">Costo por Adquisiciones</text>
+        <text name="CPCByChannel">CPC por Canal</text>
+        <text name="ClicksByChannel">Clics por Canal</text>
+        <text name="PaidSearch">Busqueda Pagada</text>
+        <text name="OrganicSearch">Busqueda Orgánica</text>
+        <text name="Referral">Referencia</text>
+
+        <!--Cost by lead-->
+        <text name="CostByLead">Costo por prospecto de ventas</text>
+        <text name="toTarget">Objetivo</text>
+        <text name="vsLastMonth">vs Ultimo Mes</text>
+        <text name="ThisMonth">Este Mes</text>
+        <text name="CostPerLead">Costo por prospecto de ventas</text>
+        <text name="NetIncomePerLead">Neto por prospecto de ventas</text>
+
+        <!--Landing Page Conversion Rates-->
+        <text name="LandingPageSite">Página</text>
+        <text name="Sessions">Sesiones</text>
+        <text name="ConversionRate">Tasa de Conversión</text>
+
+        <!--Performance KPI-->
+        <text name="YearToDateGrossProfitMargin">MARGEN BENEFICIO BRUTO(AÑO-FECHA)</text>
+        <text name="SalesGrowth">CRECIMIENTO DE VENTAS</text>
+        <text name="BurnRate">VELOCIDAD DE COMBUSTIÓN</text>
+        <text name="OperatingCashFlow">FLUJO DE CAJA OPERATIVO</text>
+        <text name="WorkingCapital">CAPITAL DE TRABAJO</text>
+        <text name="PerformanceKPITitle"> KPI DE DESEMPEÑO FINANCIERO</text>
+        <text name="PreviousYear">AÑO PREVIO</text>
+        <text name="GrossProfitMargin1">MARGEN BENEFICIO BRUTO(MES-FECHA)</text>
+
+        <!--CashFlow Statement-->
+        <text name="Operations">OPERACIONES</text>
+        <text name="FinancingActivities">ACTIVIDADES DE FINANCIACIÓN</text>
+        <text name="InvestingActivities">ACTIVIDADES DE INVERSIÓN</text>
+        <text name="NetIncreaseCash">AUMENTO NETO DE EFECTIVO</text>
+
+        <!--Profit and loss financial-->
+        <text name="BusinessAIFinance">Negocios AI Finanzas</text>
+        <text name="GrossProfitMargin">MARGEN BENEFICIO BRUTO</text>
+        <text name="OpexRatio">OPEX RATIO</text>
+        <text name="OperatingProfitMargin">MARGEN BENEFICIO OPERATIVO</text>
+        <text name="NetProfitMargin">BENEFICIO NETO</text>
+        <text name="IncomeStatement">RESULTADOS</text>
+        <text name="MonthToMonth">Mes a Mes</text>
+        <text name="Revenue">Ingresos</text>
+        <text name="Cogs">COGS</text>
+        <text name="GrossProfit">BENEFICIO BRUTO</text>
+        <text name="OPEX">OPEX</text>
+        <text name="FinancialOperations">Operaciones</text>
+        <text name="OtherIncome">Otros Ingresos</text>
+        <text name="OtherExpenses">Otros Gastos</text>
+        <text name="OperatingProfitEBIT">BENEFICIO OPERATIVO (EBIT)</text>
+        <text name="InterestAndTax">Intereses e Impuestos</text>
+        <text name="NetProfit">BENEFICIO NETO</text>
+        <text name="EBITTarget">EBIT Objetivo</text>
+        <text name="EarningsBeforeInterestTaxes">Beneficios antes de Intereses e Impuestos</text>
+        <text name="StatementExists">Ya existe un registro para el mes y año especificados</text>
+        <text name="Month">MONTH</text>
+        <text name="OperationsGrid">OPERACIONES</text>
+        <text name="SalesGrid">VENTAS</text>
+        <text name="MarketingGrid">MERCADO</text>
+        <text name="OtherIncomeMinusExpenses">OTROS INGRESOS - GASTOS</text>
+        <text name="PLYear">Año</text>
+        <text name="Period">Período</text>
+        <text name="YTD">Hasta la fecha</text>
+        <text name="ShowQuarters">MOSTRAR CUARTOS</text>
+        <text name="OtherIncomeGrid"> OTROS INGRESOS</text>
+        <text name="OtherExpensesGrid">OTROS GASTOS</text>
+        <text name="InterestAndTaxGrid">INTERESES E IMPUESTOS</text>
+        <text name="RevenueGrid">INGRESOS</text>
+        <text name="LastEdition">Ultima Edición</text>
+        <text name="ActionsGrid">ACCIONES</text>
+
+        <!-- Financial Balance -->
+        <text name = "AssetCASH"> EFECTIVO </text>
+        <text name = "AssetAccountReceivable">Cuentas por cobrar </text>
+        <text name = "AssetInventory"> Inventario </text>
+        <text name = "AssetPrepaidExpenses"> Gastos prepagos </text>
+        <text name = "AssetShortTeamInvestment"> Inversiones de equipo corto </text>
+        <text name = "AssetLongTermInvestment"> Inversiones a largo plazo </text>
+        <text name = "AssetPropertyPlan"> Propiedad, plan y equipo </text>
+        <text name = "AssetPropertyPlan1200"> Propiedad, plan y equipo 1,200 </text>
+        <text name = "AssetCurrentStatus"> Activos actuales </text>
+        <text name = "AssetTotalCurrent"> Activos corrientes totales </text>
+        <text name = "FixedAssetTotal"> Activos totales </text>
+        <text name = "Stage"> Nivel </text>
+        <text name = "FixedAssets">Activos fijos (a largo plazo)</text>
+
+        <!--Hiring-->
+        <text name="RecruitmentConversionRate">Tasa de Conversión de Reclutamiento</text>
+        <text name="AvgCostOfHiringBySeniorityLevel">Costo Promedio de Contratación por Nivel Senior</text>
+        <text name="RecruitingFunnel">Esquema de Reclutamiento</text>
+        <text name="Applications">Aplicaciones</text>
+        <text name="Interviews">Entrevistas</text>
+        <text name="Assets">Activos</text>
+        <text name="Hires">Contratados</text>
+        <text name="MidLevel">Nivel Medio</text>
+
+        <!--It Management Score Card-->
+        <text name="Server">Servidor</text>
+        <text name="LastDown">Ultima caida hace {0} días</text>
+        <text name="LastUp">Ultima vez activo hace {0} días</text>
+        <text name="UptimeAndDowntimeServer">Tiempo Activo y Tiempo Inactivo de Servidor {0}</text>
+        <text name="UpTime">Tiempo Activo</text>
+        <text name="DownTime">Tiempo Inactivo</text>
+        <text name="ITSupportEmployeeEnduser">Soporte empleado por cada mil usuarios en el tiempo</text>
+        <text name="CountAndPercentageUnresolvedTickets">Cantidad y porcentaje de tickets sin resolver</text>
+        <text name="DowntimeIssues">Issues de Inactividad</text>
+        <text name="Issue">Issue</text>
+        <text name="Occurrence">Ocurrencia</text>
+        <text name="AvgDowntime">Promedio Inactividad</text>
+        <text name="AvgRepairTime">Promedio Tiempo de Reparación</text>
+        <text name="CMSIssue">CMS Issue</text>
+        <text name="DNSIssues">DNS Issues</text>
+        <text name="HardwareFailure">Fallo de Hardware</text>
+        <text name="Hostprovider">Proveedor de Host</text>
+        <text name="UnsolvedTickets">Tickets sin resolver</text>
+        <text name="SolvedTickets">Tickets resueltos</text>
+        <text name="SolvedUnsolved">Resueltos/No Resueltos</text>
+        <text name="Percentage">Porcentaje</text>
+
+        <!--Performance-->
+        <text name="SampleDashboard">EJEMPLO DE DASHBOARD</text>
+        <text name="NewTasks">NUEVAS TAREAS</text>
+        <text name="NewTickets">NUEVOS TICKETS</text>
+        <text name="NewComments">NUEVOS COMMENTS</text>
+        <text name="NewVisitors">NUEVOS VISITANTES</text>
+        <text name="CPUUsage">USO DE CPU</text>
+        <text name="RealTime">TIEMPO REAL</text>
+        <text name="Today">HOY</text>
+        <text name="Yesterday">AYER</text>
+        <text name="LastWeek">SEMANA PASADA</text>
+        <text name="LastMonth">MES PASADO</text>
+        <text name="LastYear">AÑO PASADO</text>
+        <text name="LatestSocialTrends">ULTIMAS TENDENCIAS SOCIALES</text>
+        <text name="AnsweredTickets">TICKETS SOLUCIONADOS</text>
+        <text name="TaskInfos">INFORMACION DE TASKS</text>
+        <text name="BrowserUsage">USO DEL NAVEGADOR</text>
+        <text name="All">TODO</text>
+
+        <!--Purchasing-->
+        <text name="SupplierComplianceStats">ESTADÍSTICAS DE CUMPLIMIENTO DEL PROVEEDOR</text>
+        <text name="Suppliers">PROVEEDORES</text>
+        <text name="Contracted">CONTRATADO</text>
+        <text name="UnListed">NO EN LISTADO</text>
+        <text name="GoldPartner">Gold Partner</text>
+        <text name="SilverPartner">Silver Partner</text>
+        <text name="BronzePartner">Bronze Partner</text>
+        <text name="TotalSpending">Total Gastado</text>
+        <text name="Savings">Ahorros</text>
+        <text name="ForegoneSavings">Ahorro Previo</text>
+        <text name="TopSuppliersByPartnerStatus">Mayores Proveedores por Partner</text>
+        <text name="YourTrend">Tendencia</text>
+        <text name="RateOfContractComplianceBySupplierCategory">TASA DE CUMPLIMIENTO DEL CONTRATO POR CATEGORÍA DEL PROVEEDOR</text>
+        <text name="CategoryAndTopSupplier">Categoría y Mayor Proveedor</text>
+        <text name="Supplier">Proveedor</text>
+        <text name="ShareOfManageSupplierByCategory">Cuota proveedor por categoría</text>
+        <text name="AvgProcurementCycleTimeInDays">PROMEDIO TIEMPO DE CONTRATACION (EN DIAS)</text>
+        <text name="SuppliersPercent">% de Proovedores</text>
+        <text name="Category">Categoría</text>
+        <text name="OrderPlacement">Colocación</text>
+        <text name="Confirmation">Confirmación</text>
+        <text name="Delivery">Entrega</text>
+        <text name="Invoicing">Facturación</text>
+        <text name="AvgProcurementCycleSupplierClassification">PROMEDIO TIEMPO DE CONTRATACION (CLASIFICACION PROVEEDOR)</text>
+        <text name="NrOfSuppliers">Nr de Proveedores</text>
+        <text name="Short">Corto</text>
+        <text name="Medium">Medio</text>
+        <text name="Long">Largo</text>
+
+        <!--InterestAndTaxesPercent-->
+        <text name="InterestAndTaxes">Impuestos e Intereses</text>
+        <text name="EnterPercent">Introduzca el % </text>
+
+        <!--Reports-->
+        <text name="ProfitAndLossFinancialReportTitle">REPORTE DE GANACIAS Y PERDIDAS</text>
+
+        <!--About-->
+        <text name="AboutHeader">¿Qué es ISU Core?</text>
+        <text name="AboutBody">
+            ISU Core es la base para crear su aplicación de software personalizada.
+            Una solución que nos permite hacer avanzar su proyecto sin necesidad de construirlo desde cero.
+            ISU Core es la estructura principal de su aplicación de software moderna.
+        </text>
+        <text name="AboutSaveTimeMoney">AHORRA TIEMPO &amp; DINERO</text>
+        <text name="AboutSaveTimeMoney_Descrciption">Con ISU Core ahorrará tiempo y dinero, con nuestra plataforma todo en uno para crear su aplicación personalizada.</text>
+        <text name="AboutEasyToMantain">FÁCIL DE MANTENER</text>
+        <text name="AboutEasyToMantain_Descrciption">Una de las funciones principales de ISU Core es garantizar un mantenimiento simple y completo sin estrés.</text>
+        <text name="AboutSeamlessExpansion">EXPANSIÓN FLUIDA</text>
+        <text name="AboutSeamlessExpansion_Descrciption">El ISU Core es específicamente para crear un avance consistente y armonioso para su aplicación.</text>
+
+        <!--Settings-->
+        <text name="CropImage">Delimitar imagen</text>
+        <text name="ChangeLogo">Cambiar Logo</text>
+        <text name="CurrentLogo">Logo Actual</text>
+        <text name="SelectImage">Seleccionar Nueva Imagen</text>
+        <text name="EnableOrDisabledTentant">Habilitar/Deshabilitar Empresas</text>
+        <text name="EnableOrDisabledChangeLogoImage">Habilitar/Deshabilitar Cambio de Logo por Empresa</text>
+
+        <!--VerifyWithPassword-->
+        <text name="PleaseSetYourPassword">Por favor ingrese su contraseña:</text>
+
+        <!--Payment-->
+        <text name="Cash">Efectivo</text>
+        <text name="Cheque">Cheque</text>
+        <text name="BankTransfers">Transferencia Bancaria</text>
+        <text name="CreatePayment">Añadir Pago</text>
+        <text name="PaymentDate">Fecha de Pago</text>
+        <text name="PaymentDetail">Añadir Extras</text>
+        <text name="PaymentMethod">Método de Pago</text>
+        <text name="Payments">Pagos</text>
+        <text name="CostxHour">Costo por Hora</text>
+        <text name="Bonus">Bono</text>
+        <text name="Internet">Internet</text>
+        <text name="Fee">Fee</text>
+        <text name="Other">Otros</text>
+        <text name="OtherDescription">Descripción de Otros</text>
+        <text name="totalWorkxHour">Total de Trabajo por Hora</text>
+
+        <text name="BankingInfo">Información Bancaria</text>
+        <text name="EditPayment">Editar Pago</text>
+        <text name="CreateNewPayment">Crear Nuevo Pago</text>
+        <text name="PaymentInformation">Información de Pago</text>
+        <text name="PaymentDeleteWarningMessage">"¿Está seguro de querer eliminar este pago?"</text>
+    </texts>
+</localizationDictionary>
+
